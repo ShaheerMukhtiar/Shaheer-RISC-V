@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2024-06-04T15:41:49</DateModified>
+  <DateModified>2024-06-04T23:27:06</DateModified>
   <ModuleName>tb</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>D:/CSA Project/RISCV_Project/iseconfig/tb.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>D:/CSA Project/RISCV_Project\</ImplementationReportsDirectory>
+  <SavedFilePath>D:/CSA Project/RISCV_Project/64 Bit/iseconfig/tb.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>D:/CSA Project/RISCV_Project/64 Bit\</ImplementationReportsDirectory>
   <DateInitialized>2024-06-04T14:02:22</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
