@@ -1,0 +1,55 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/CSA Project/RISCV_Project/tb_isim_beh.exe" -prj "D:/CSA Project/RISCV_Project/tb_beh.prj" "work.tb" "work.glbl" 
+ISim P.58f (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/CSA Project/RISCV_Project/mux.v" into library work
+Analyzing Verilog file "D:/CSA Project/RISCV_Project/mux2.v" into library work
+Analyzing Verilog file "D:/CSA Project/RISCV_Project/WBRegister.v" into library work
+Analyzing Verilog file "D:/CSA Project/RISCV_Project/registerFile.v" into library work
+Analyzing Verilog file "D:/CSA Project/RISCV_Project/Program_Counter.v" into library work
+Analyzing Verilog file "D:/CSA Project/RISCV_Project/parser.v" into library work
+Analyzing Verilog file "D:/CSA Project/RISCV_Project/MEMRegister.v" into library work
+Analyzing Verilog file "D:/CSA Project/RISCV_Project/Instruction_Memory.v" into library work
+Analyzing Verilog file "D:/CSA Project/RISCV_Project/IDRegister.v" into library work
+Analyzing Verilog file "D:/CSA Project/RISCV_Project/ForwardingUnit.v" into library work
+Analyzing Verilog file "D:/CSA Project/RISCV_Project/extractor.v" into library work
+Analyzing Verilog file "D:/CSA Project/RISCV_Project/EXRegister.v" into library work
+Analyzing Verilog file "D:/CSA Project/RISCV_Project/Data_Memory.v" into library work
+Analyzing Verilog file "D:/CSA Project/RISCV_Project/Control_Unit.v" into library work
+Analyzing Verilog file "D:/CSA Project/RISCV_Project/ALU_Control.v" into library work
+Analyzing Verilog file "D:/CSA Project/RISCV_Project/ALU_64_bit.v" into library work
+Analyzing Verilog file "D:/CSA Project/RISCV_Project/Adder.v" into library work
+Analyzing Verilog file "D:/CSA Project/RISCV_Project/RISC_V_Processor.v" into library work
+Analyzing Verilog file "D:/CSA Project/RISCV_Project/tb.v" into library work
+Analyzing Verilog file "E:/14.5/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 160288 KB
+Fuse CPU Usage: 202 ms
+Compiling module Program_Counter
+Compiling module Adder
+Compiling module Instruction_Memory
+Compiling module mux
+Compiling module IDRegister
+Compiling module parser
+Compiling module Control_Unit
+Compiling module extractor
+Compiling module registerFile
+Compiling module EXRegister
+Compiling module ALU_Control
+Compiling module mux2
+Compiling module ForwardingUnit
+Compiling module ALU_64_bit
+Compiling module MEMRegister
+Compiling module Data_Memory
+Compiling module WBRegister
+Compiling module RISC_V_Processor
+Compiling module tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 5 sub-compilation(s) to finish...
+Compiled 20 Verilog Units
+Built simulation executable D:/CSA Project/RISCV_Project/tb_isim_beh.exe
+Fuse Memory Usage: 167648 KB
+Fuse CPU Usage: 343 ms
